@@ -1,0 +1,24 @@
+.main-title {
+    font: var(--title-lg);
+}
+
+.sec-title {
+    font: var(--title-md)
+}
+
+.thr-title {
+    font: var(--title-sm)
+}
+
+.info-title {
+    font: var(--subtitle);
+}
+
+.social-text {
+    font: var(--text-md);
+}
+
+.subtitle {
+    font: var(text-sm)
+}
+
