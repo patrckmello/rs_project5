@@ -8,11 +8,11 @@
 }
 
 .projects-text {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
     text-align: center;
     margin-bottom: 56px;
-    &>span {
-        margin-bottom: 8px;
-    }
 
     &>h2 {
         color: var(--gray-600);
@@ -32,7 +32,11 @@
     max-height: 280px;
     background-color: var(--gray-300);
     border-radius: 12px;
+    border: 1.5px solid transparent;
     padding: 12px 12px;
+    transition: border-color 0.3s ease-in-out;
+    text-decoration: none;
+
     &>img {
         border-radius: 8px;
         max-width: 306px;
@@ -48,4 +52,8 @@
     &>span {
         color: var(--gray-500);
     }
+}
+
+.project:hover {
+    border: 1.5px solid var(--gray-400);
 }
