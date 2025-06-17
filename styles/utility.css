@@ -19,14 +19,12 @@
 }
 
 .subtitle {
-    font: var(text-sm)
+    font: var(--text-sm)
 }
 
 .red-text {
     color: var(--red);
 }
 
-.red-icon {
-    fill: var(--red);
-}
+
 
